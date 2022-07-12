@@ -1,0 +1,42 @@
+body{
+  background-color: #B0E0E6;
+}
+
+p{
+  font-family: verdana;
+}
+
+h1{
+  font-size: 72px;
+  font-family: arial;
+  text-decoration: underline;
+  }
+
+h2{
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: blue;
+}
+
+h3{
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.series{
+  border-style: solid;
+  border-color: blue;
+  width: 50%;
+}
+
+.pelis{
+  border-style: solid;
+  border-color: blue;
+  width: 75%;
+}
+
+.datos {
+  border-style: dotted;
+  border-color: black;
+}
