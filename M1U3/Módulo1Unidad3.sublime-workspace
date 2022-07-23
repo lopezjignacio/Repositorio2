@@ -243,14 +243,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "ejemplo.html",
-			"settings":
-			{
-				"buffer_size": 2270,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -288,6 +280,9 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/phpintermedio/Evaluación Módulo 1/index.php",
+		"/C/Users/J.Ignacio/Documents/DiplomaturaFullStack/M1U3/ejemplo.html",
+		"/C/xampp/htdocs/phpintermedio/Módulo 2/base_evaluacion_integradora2/index.php",
 		"/C/Users/J.Ignacio/Documents/DiplomaturaFullStack/M1U3/ejemplo2.html",
 		"/C/Users/J.Ignacio/Documents/DiplomaturaFullStack/M1U2/.gitignore",
 		"/C/Users/J.Ignacio/Documents/privado2.txt",
@@ -412,10 +407,7 @@
 		"/C/xampp/htdocs/phpavanzado/Clase 13-01/Integración Contenidos/Vistas/paginas/registro.php",
 		"/C/xampp/htdocs/phpavanzado/Clase 13-01/Integración Contenidos/Controladores/formulario.controlador.php",
 		"/C/xampp/htdocs/phpavanzado/Clase 13-01/Integración Contenidos/Controladores/plantillaControlador.php",
-		"/C/xampp/htdocs/phpavanzado/Clase 13-01/Integración Contenidos/Controladores/index.php",
-		"/C/xampp/htdocs/phpavanzado/Unidad 4/PruebaUni4/index.php",
-		"/C/xampp/htdocs/phpavanzado/Unidad 4/PruebaUni4/config.php",
-		"/C/xampp/htdocs/phpavanzado/Unidad 4/PruebaUni4/paginator.class.php"
+		"/C/xampp/htdocs/phpavanzado/Clase 13-01/Integración Contenidos/Controladores/index.php"
 	],
 	"find":
 	{
@@ -485,36 +477,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "ejemplo.html",
-					"settings":
-					{
-						"buffer_size": 2270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2244,
-								2244
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1341.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
