@@ -1,0 +1,236 @@
+/*fuentes:
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'STIX Two Text', serif;*/
+
+header{
+  flex-direction: row;
+  height: 100px;
+  background-color: black;
+}
+
+body{
+  background-color: black;
+  color: white;
+  align-items: center;
+  /* width: 960px; */
+  border: 1px solid white;
+  justify-content: center;
+}
+
+nav{
+    color:black;
+    background-color: #FFD700;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+}
+
+.imgEscudo{
+  float: left;
+  height: 100px;
+}
+
+.imgFrente{
+  float: left;
+  height: 250px;
+}
+
+.fotobasquet{
+  height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  }
+
+.imgBasquet{
+  height: 300px;
+  justify-content:center;
+  align-items:center;
+}
+
+.fotofutbol{
+  height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  }
+
+.imgFutbol{
+  height: 300px;
+  justify-content:center;
+  align-items:center;
+}
+
+.fotopatin{
+  height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  }
+
+.imgPatin{
+  height: 300px;
+  justify-content:center;
+  align-items:center;
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-size: 54px;
+  text-shadow: 5px 5px 5px #FFD700;
+  padding-top: 20px;
+}
+
+.barra ul li{
+  font-family: 'Lato', sans-serif;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+  background-color: rgba(192,192,192,0.40);
+  border-radius: 21px 21px 21px 21px;
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.15);
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  /* width: 60px; */
+  /* height: 100%; */
+}
+
+.intro{
+  column-count:2;
+  column-gap:20px;
+  font-family: 'STIX Two Text', serif;
+  height: 280px;
+  font-size: 18px;
+}
+
+.patin{
+  column-count:2;
+  column-gap:20px;
+  font-family: 'STIX Two Text', serif;
+  height: 280px;
+  font-size: 18px;
+}
+
+.basquet{
+  column-count:2;
+  column-gap:20px;
+  font-family: 'STIX Two Text', serif;
+  height: 280px;
+  font-size: 18px;
+}
+
+.futbol{
+  column-count:2;
+  column-gap:20px;
+  font-family: 'STIX Two Text', serif;
+  height: 280px;
+  font-size: 18px;
+}
+
+div{
+  background-color: #FFD700;
+  position: relative;
+  left: 5%;
+  color: black;
+  width: 90%;
+  align-items: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+footer{
+  /*background-color: #FAFAD2;*/
+  color: #F08080;
+  background: #fafad2;
+  background: linear-gradient(335deg,#fafad2 0%, #98ecef 150%);
+  background: -webkit-linear-gradient(335deg,#fafad2 0%, #98ecef 150%);
+  background: -moz-linear-gradient(335deg,#fafad2 0%, #98ecef 150%);
+}
+
+.symbols {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' -40,
+  'opsz' 48
+}
+
+.symbols{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;  
+}
+
+.sym{
+  position: relative;
+  padding-top: 30px;
+  width: 125px;
+  height: 120px;
+  background-color: black;
+  color: yellow;
+  align-self: center;
+  text-align:center;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px 0px rgba(75,75,75,0.25);
+  border-radius: 50%;
+}
+
+.cont {
+  font-family: 'Lato', sans-serif;
+}
+
+.cont form{
+  margin: 0 auto;
+  width: 700px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.cont label{
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+}
+
+.cont input, textarea{
+  font: 1em sans-serif;
+  width: 400px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+
+}
+
+.cont textarea{
+  vertical-align: top;
+  height: 150px;
+  color: #F08080;
+  background: #fafad2;
+  background: linear-gradient(335deg,#fafad2 0%, #98ecef 150%);
+  }
+
+#subm {
+  position: relative;
+  left:50%;
+  top: 10px;
+  text-align: conter;
+  width: 100px;
+}
