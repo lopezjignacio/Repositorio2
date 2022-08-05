@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Módulo 2 Unidad 3 - CV Juan Ignacio López</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Fira+Sans:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cv.css">
+  </head>
+  <body>
+    <div class="titulos">
+    <h1>JUAN IGNACIO LÓPEZ</h1>
+    <img id="foto" src="images/captura.png" alt="JuanIgnacio">
+    </div>
+    <div class="datosperson">
+      <h2><i class="fa-solid fa-cake-candles"></i>Edad</h2>
+      <p>33 años (24/01/1989)</p>
+      <h2><i class="fa-solid fa-house-laptop"></i>Domicilo</h2>
+      <p>Juan de Pueyrredón 2063, Glew</p>
+    </div>
+<div class="gustos">
+  <h3>¿Qué series me gustan?</h3>
+  <div class="series">
+    <ul>
+      <li><i class="fa-solid fa-tv"></i> Breaking Bad</li>
+      <li><i class="fa-solid fa-tv"></i> Game of Thrones</li>
+      <li><i class="fa-solid fa-tv"></i> The Office</li>
+      <li><i class="fa-solid fa-tv"></i> Mad Men</li>
+    </ul>
+  </div>
+  <h3>¿Qué pelis son las que más me gustaron?</h3>
+  <div class="pelis">
+  <ol>
+      <li><i class="fa-solid fa-film"></i> The Godfather</li>
+      <li><i class="fa-solid fa-film"></i> The Godfather. Part II</li>
+      <li><i class="fa-solid fa-film"></i> The Terminator 2</li>
+      <li><i class="fa-solid fa-film"></i> The Matrix</li>
+      <li><i class="fa-solid fa-film"></i> The Goodfellas</li>
+    </ol>
+  </div>
+</div>
+    <div class="datos">
+      <h3>Perfil</h3>
+      <p>Soy licenciado en Ciencia y Tecnología de los Alimentos. Trabajo como Coordinador del Sistema de Gestión e Inocuidad en una panificadora industrial de congelados.</p>
+      <p>Me gusta la programación. Lo tomo como un hobby, pero quiero aprender más para poder aplicarlo en proyectos personales. En principio, quiero llevar adelante la página web del club de mi barrio y una página web de compra/venta para el comercio de mi padre.</p>
+      <p>Ya realicé cursos de programación PHP y MySQL, y de Big Data y análisis de datos.</p>
+    </div>
+      <div class="cont">
+        <form class="contacto" action="cv.html" method="post">
+          <label for="nombre">Nombre y apellido:</label>
+          <input type="text" name="nombre"/>
+          <br>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" name="email usuario">
+          <br>
+          <label for="comentario">Mensaje:</label>
+          <textarea id="comentario" name="comentario" placeholder="Escribí tu mensaje"rows="8" cols="80"></textarea>
+          <br>
+          <input id="subm" type="submit" name="Enviar">
+        </form>
+      </div>
+  </body>
+</html>
